@@ -5,7 +5,7 @@ import Button from '@material-tailwind/react/Button'
 
 const Header: React.FC<{}> = () => {
   return (
-    <div className="sticky top-0 z-50 flex items-center px-4 py-2 shadow-md bg-white">
+    <header className="sticky top-0 z-50 flex items-center px-4 py-2 shadow-md bg-white">
       <Button
         color="blue"
         buttonType="outline"
@@ -53,7 +53,7 @@ const Header: React.FC<{}> = () => {
           src="https://avatars.githubusercontent.com/u/38458781?v=4"
         />
       </div>
-    </div>
+    </header>
   )
 }
 
