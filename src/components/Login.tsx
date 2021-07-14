@@ -23,7 +23,7 @@ const Login: React.FC<{}> = () => {
           buttonType="filled"
           ripple="ligth"
           className="w-44 mt-10"
-          onClick={() => signIn()}
+          onClick={() => signIn('google')}
         >
           Login
         </Button>

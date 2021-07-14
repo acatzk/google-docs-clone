@@ -51,7 +51,7 @@ const Header: React.FC<{}> = () => {
           height={30}
           alt="Profile Picture"
           className="cursor-pointer rounded-full"
-          src={session?.user?.image!}
+          src={session?.user?.image! || '/images/default-avatar.jpg'}
           onClick={() => signOut()}
         />
       </div>
